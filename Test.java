@@ -1,8 +1,10 @@
-class Test{
-    
-    public static void main(String args[]){
-        int i;
-        Test a;
-        System.out.println(a.i);
+public class Test {
+    Test()
+    {
+        System.out.println("no arguments constructor");
+    }
+    public static void main(String[] args)
+    {
+        Test t=new Test();
     }
 }
